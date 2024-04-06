@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# My Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is my personal portfolio, crafted with React.js.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+My Personal Portfolio is built using React.js and incorporates Husky and linting, it's in process
 
-### `npm start`
+## Dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Husky**: Husky is used for Git hooks to ensure code quality and consistency.
+- **Lint**: Linting is performed to enforce coding standards and identify potential issues.
+- **React**: React is the JavaScript library used for building the user interface of this portfolio.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Before installing, ensure you have Node.js and pnpm installed on your system.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install project dependencies, run the following command:
 
-### `npm run build`
+pnpm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+pnpm run start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+MIT
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Other Commands
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run linting and ensure code quality, execute:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+pnpm run lint
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Autors
 
-## Learn More
+Leonardo Mejía
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How to Contribute
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions to this project are welcome! If you would like to contribute, please follow these steps:
 
-### Code Splitting
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and ensure they are thoroughly tested.
+Submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## How to run test
 
-### Analyzing the Bundle Size
+To run test cases, use the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+pnpm run test
